@@ -1,0 +1,43 @@
+.wrapper {
+    width: 60vw;
+    /* margin: 5% auto 0 5%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    padding: 0;
+}
+
+section {
+    align-items: center;
+    padding: 2rem;
+    display: inline-flex;
+}
+
+.player1,
+.player2 {
+    display: inline-flex;
+    border: solid 2px grey;
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem;
+    margin: 5% auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0.1rem;
+    font-size: 2em;
+}
+
+button {
+    width: 3rem;
+    height: 3rem;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.output {
+    justify-content: center;
+    width: 30vw;
+    margin: 0 auto;
+}
